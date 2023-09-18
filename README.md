@@ -1,2 +1,3 @@
 # rsschool-cv
-repo for my cv
+
+https://Aibar77.github.io/rsschool-cv/cv
