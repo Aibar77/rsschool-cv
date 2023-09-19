@@ -13,8 +13,125 @@
     <title>CV</title>
   </head>
   <body>
-    <header class="header"></header>
-    <main class="main"></main>
-    <footer class="footer"></footer>
+    <header class="header">
+      <nav>
+        <ul>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code Example</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contacts</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="left">
+        <img
+          src="./assets/img/AibarCV.jpg"
+          alt="myCVphoto"
+          class="cv-photo"
+          width="121"
+          height="160"
+        />
+        <div class="contacts">
+          <h2 id="contact">Contacts</h2>
+          <ul>
+            <li>Discord: <a href="https://discord.com/">aibar_fe2023</a></li>
+            <li>
+              Email:
+              <a href="mailto:mambetaibar@gmail.com">mambetaibar@gmail.com</a>
+            </li>
+            <li>Address: <span>Almaty, Kazakhstan</span></li>
+          </ul>
+        </div>
+        <div class="education">
+          <h2 id="education">Education</h2>
+          <ul>
+            <li>
+              <p class="year">2017 - 2021</p>
+              AUES - Electric Engineering
+            </li>
+            <li>
+              <p class="year">2021 - 2022</p>
+              JustCode - Frontend developer
+            </li>
+            <li>
+              <p class="year">2023</p>
+              RS School - Frontend/React Developer
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <h1>Mambet Aibar</h1>
+        <p>Front-End developer</p>
+        <div class="aboutme">
+          <h2 id="aboutme">About me</h2>
+          <p>
+            I am self-taught guy who learn everything by yourself. I'm suffer a
+            lot through the path and currently hoping to find a job. In sundays
+            i love running, walking in the city and listening some lofi music.
+          </p>
+        </div>
+        <div class="skills">
+          <h2 id="skills">Skills</h2>
+          <ul>
+            <li>HTML/HTML5, CSS3/SCSS, BEM</li>
+            <li>Javascript/ES6</li>
+            <li>Typescript</li>
+            <li>React/Redux/React Router</li>
+            <li>Node js/Express</li>
+            <li>Figma, Git, Webpack</li>
+            <li>
+              English - B2.The results of my online testing from
+              <a
+                href="https://www.efset.org/quick-check/take-test/#set15-190/result"
+                >EFSET</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="code-example">
+          <h2 id="code">Code example</h2>
+          <p><strong>Assignment</strong>: find a unique number from array</p>
+          <pre>
+            <code>
+  function findUniq(arr) {
+  let arr1 = [];
+  let arr2 = [];
+  for (let num of arr) {
+    if (arr1.length === 0) {
+      arr1.push(num);
+    } else {
+      if (num === arr1[0]) {
+        arr1.push(num);
+      } else {
+        arr2.push(num);
+      }
+    }
+  }
+  return arr1.length > arr2.length ? arr2[0] : arr1[0];
+}
+
+            </code>
+          </pre>
+        </div>
+        <div class="projects">
+          <h2>My projects</h2>
+          <div class="projects-inner">
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="github">
+        <img src="" alt="" />
+      </div>
+    </footer>
   </body>
 </html>
