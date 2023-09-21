@@ -12,7 +12,7 @@
 
 ## About me
 
-I am self-learner guy who learn everything by yourself. I'm suffer a lot through the path and currently hoping to find a job. In sundays i love running, walking in the city and listening some lofi music.
+I am self-taught guy who learn everything by yourself. I'm suffer a lot through the path and currently hoping to find a job. In sundays i love running, walking in the city and listening some lofi music.
 
 ---
 
