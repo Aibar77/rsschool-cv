@@ -1,1 +1,1 @@
-https://Aibar77.github.io/rsschool-cv/
+This is my CV Website
